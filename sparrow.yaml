@@ -85,6 +85,6 @@ tasks:
     language: Bash
     code: |
       set -e 
-      sudo apt-get install -y time libfontconfig1-dev
-      zef install --/test Text::Table::Simple
+      sudo apt-get install -yq time libfontconfig1-dev
+      zef install --/test Text::Table::Simple 
  
